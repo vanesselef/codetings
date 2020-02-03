@@ -1,0 +1,14 @@
+'''
+float, float --> float
+Ask user for the cost of an item and the amount of money remitted to pay for the item
+'''
+#define variables
+cost = float(input("Enter the cost of the item: "))
+money = float(input("Enter how much you are paying for the item: "))
+
+
+if (cost>money):
+    print("You still owe: ", cost - money)
+else:
+    print("Your change is:", money - cost)
+    
